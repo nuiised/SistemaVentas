@@ -5,33 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CapaPresentacion"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        Height="450"
+        Width="800">
+
     <DockPanel>
+
         <Menu DockPanel.Dock="Top">
+
             <MenuItem Header="_Archivo">
-                <MenuItem Header="_Salir" Click="Salir_Click"/>
+                <MenuItem Header="_Salir"
+                          Click="Salir_Click"/>
             </MenuItem>
+
             <MenuItem Header="_Mantenimiento">
-                <MenuItem Header="_Productos" Click="Productos_Click"/>
+                <MenuItem Header="_Productos"
+                          Click="Productos_Click"/>
             </MenuItem>
+
             <MenuItem Header="A_yuda">
-                <MenuItem Header="_Acerca de" Click="AcercaDe_Click"/>
+                <MenuItem Header="_Acerca de"
+                          Click="AcercaDe_Click"/>
             </MenuItem>
-
-            <StatusBar DockPanel.Dock="Bottom">
-                <TextBlock x:Name="txtEstado" Text="Listo"/>
-            </StatusBar>
-
-            <Grid Background="#F3F6FA">
-                <StackPanel VerticalAlignment="Center"
-HorizontalAlignment="Center">
-                    <TextBlock Text="Elige una opción del menú Mantenimiento" FontSize="14" Foreground="Gray" HorizontalAlignment="Center" Margin="0,8,0,0"/>
-                    <TextBlock Text="Sistema de Ventas - Senati" FontSize="32" FontWeight="Bold" Foreground="#1F4E79"/>
-                </StackPanel>
-
-            </Grid>
 
         </Menu>
 
+        <StatusBar DockPanel.Dock="Bottom">
+            <TextBlock x:Name="txtEstado"
+                       Text="Listo"/>
+        </StatusBar>
+
+        <Grid Background="#F3F6FA">
+
+            <StackPanel VerticalAlignment="Center"
+                        HorizontalAlignment="Center">
+
+                <TextBlock Text="Elige una opción del menú Mantenimiento"
+                           FontSize="14"
+                           Foreground="Gray"
+                           HorizontalAlignment="Center"
+                           Margin="0,8,0,0"/>
+
+                <TextBlock Text="Sistema de Ventas - Senati"
+                           FontSize="32"
+                           FontWeight="Bold"
+                           Foreground="#1F4E79"/>
+
+            </StackPanel>
+
+        </Grid>
+
     </DockPanel>
+
 </Window>
