@@ -25,13 +25,13 @@
             <Grid Background="#F3F6FA">
                 <StackPanel VerticalAlignment="Center"
 HorizontalAlignment="Center">
-                    <TextBlock Text="Sistema de Ventas" FontSize="32" FontWeight="Bold" Foreground="#1F4E79"/>
                     <TextBlock Text="Elige una opción del menú Mantenimiento" FontSize="14" Foreground="Gray" HorizontalAlignment="Center" Margin="0,8,0,0"/>
+                    <TextBlock Text="Sistema de Ventas - Senati" FontSize="32" FontWeight="Bold" Foreground="#1F4E79"/>
                 </StackPanel>
-                
+
             </Grid>
-            
+
         </Menu>
-       
+
     </DockPanel>
 </Window>
